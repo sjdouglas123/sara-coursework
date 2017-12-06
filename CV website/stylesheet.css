@@ -1,0 +1,144 @@
+html {
+  position: relative;
+}
+
+/* Header CSS used to add a background image to the top of the page and align the text */
+.header {
+  color:#ffb3d9;
+background-image: url("computing.jpeg");
+padding:20px;
+height:100px;
+text-align:center;
+}
+
+/* Breadcrumb CSS used to give the breadcrumbs in the footer a grey background colour */
+.breadcrumb {
+  background-color:#b3b3b3;
+}
+
+/* H1 CSS used to make the font and size of the heading of the webpage consistent and aesthetic */
+h1 {
+  font-size:60px;
+  color:black;
+  font-family: font-family: 'Press Start 2P', cursive;
+  text-align: center;
+}
+
+/* h2 CSS used to create consistent layout of the heading concerning page content */
+h2 {
+  margin-top:10px;
+  font-size:40px;
+  color:black;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+/* body CSS used to give an overall grey background in the body of the HTML and help with the positioning of elements on the page */
+body{
+  background-color:#cccccc;
+  margin:auto;
+  min-height: 100;
+  overflow: auto;
+}
+
+/* Article CSS containing the main page information, used to position it as the left hand side column and space it away from the header and footer */
+article {
+  padding-top:10px;
+  padding-left:5px;
+  padding-right:5px;
+  margin-left:10px;
+  background-color:#40bf80;
+  height:auto;
+  border-radius:25px;
+  margin-bottom:10px;
+  width:800px;
+  text-align:center;
+}
+
+/* Footer CSS used to keep the footer at the very bottom of the page and have it span across the whole page. */
+#footer {
+  position: absolute;
+  margin-top:10%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:100px;
+    background-color: #b3b3b3;
+    color: white;
+    text-align: right;
+}
+
+
+/* Start of navigation bar code */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Changes the link color on hover */
+
+li a:hover {
+  background-color: #555
+  color: white;
+}
+
+
+/*End of navigation bar code */
+
+/*Start of website layout code */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 10%;
+}
+
+#main{
+  width:70%;
+  height:auto;
+  float:left;
+  margin-top:0%;
+  margin-right:0%;
+  margin-bottom:0%;
+  padding:1%;
+}
+
+#container {
+  margin-bottom:100px;
+}
+
+#aside{
+  width:26%;
+  height:315px;
+  display:inline-block;
+  margin-top:0%;
+  margin-left:0%;
+  margin-bottom:0%;
+  padding:1%;
+}
+
+@media (max-width:600px) {
+  .column.side, .column.middle {
+    width:100%;
+  }
+}
+/*End of website layout code */
